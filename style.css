@@ -450,11 +450,8 @@ li {
   }
 
   .introduction {
-    padding: 0 3em;
-  }
-
-  .introduction {
     margin: auto;
+    padding: 0 3em;
     width: 50em;
   }
 
@@ -473,6 +470,10 @@ li {
   .productivity {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  
+   .productivity .text {
+    padding-top: 5em;
   }
 
   .quote-icon {
